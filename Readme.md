@@ -12,7 +12,10 @@
 
 ## Usage
 
-  Coming soon
+  Coming soon.
+
+  See templates in [examples][examples] and run `examples/build.js` for
+  examples of generation.
 
 ## License
 
@@ -20,4 +23,5 @@
 
 
 [jade]: https://github.com/visionmedia/jade
+[examples]: https://github.com/ericgj/metalsmith-shortcodes/tree/master/examples
 
