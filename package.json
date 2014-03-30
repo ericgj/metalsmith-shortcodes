@@ -1,0 +1,21 @@
+{
+  "name": "metalsmith-shortcodes",
+  "description": "A metalsmith plugin to render wordpress-esque shortcodes via templates.",
+  "repository": "git://github.com/ericgj/metalsmith-shortcodes.git",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {
+    "jade": "~1.3.0", 
+    "shortcode-parser": "0.0.1",
+    "async": "~0.2.10",
+    "debug": "~0.7.4",
+    "extend": "~1.2.1",
+    "multimatch": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "metalsmith": "0.x",
+    "assert-dir-equal": "0.0.1"
+  }
+}
