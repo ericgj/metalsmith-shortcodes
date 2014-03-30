@@ -3,6 +3,7 @@
   "description": "A metalsmith plugin to render wordpress-esque shortcodes via templates.",
   "repository": "git://github.com/ericgj/metalsmith-shortcodes.git",
   "version": "0.0.1",
+  "author": "Eric Gjertsen",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
