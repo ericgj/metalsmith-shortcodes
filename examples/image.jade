@@ -1,3 +1,3 @@
 div(class="image-caption" style="width: " + width)
-  img(src=(innerText || url) class=align alt=(alt || caption) title=(title || caption))
+  img(src=((innerText || url).trim()) class=align alt=(alt || caption) title=(title || caption))
   p(class="image-caption-text")= caption

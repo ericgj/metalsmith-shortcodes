@@ -28,6 +28,10 @@ describe('metalsmith-shortcodes', function(){
     testFixture('multiple',{},done);
   });
 
+  it('should ignore shortcodes with no correponding template', function(done){
+    testFixture('notemplate',{},done);
+  });
+
 })
 
 
