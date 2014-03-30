@@ -24,6 +24,9 @@ describe('metalsmith-shortcodes', function(){
     testFixture('content',{},done);
   });
 
+  it('should render multiple shortcodes', function(done){
+    testFixture('multiple',{},done);
+  });
 
 })
 
